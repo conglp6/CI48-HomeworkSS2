@@ -18,4 +18,4 @@ nonVegetableMeal.addFood(food3);
 
 console.log(nonVegetableMeal)
 nonVegetableMeal.show()
-console.log(nonVegetableMeal.calculatePrice());
+console.log('Hoá đơn: ' + nonVegetableMeal.calculatePrice() + '$');
